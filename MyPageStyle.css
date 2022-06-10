@@ -1,0 +1,180 @@
+
+/* divs*/
+    #Body{
+        background-color: rgb(12, 86, 136);
+        padding: 20px;
+        margin: 30px;
+        border-radius: 50px;
+    }
+
+    #S{
+        color: white;
+        background-color: black;
+        border-radius: 15px;
+        padding-right: 130px;
+    }
+    nav.menu{
+        padding: 15px 0 15px 15px;
+        background-color: rgb(255, 255, 255);
+        margin-left:680px;
+        margin-right:680px;
+        margin-top: 5px;
+        border-radius: 75px;
+    }
+
+    nav.menu a{
+        padding: 5px;
+        background-color: rgb(29, 28, 27);;
+        margin: 15px 25px 0 25px;
+        border-radius: 75px;
+        color: azure;
+    }
+
+
+/*Fin de divs*/
+
+/* Header y footer*/
+
+    header{
+        background-image: url(https://www.wysetc.org/wp-content/uploads/sites/19/2020/10/header-small.jpg);
+        height: 150px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        /*For visaul reasons?*/
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 45px;
+        justify-content: space-between;
+    }
+
+    header a:hover{
+        background-color: aquamarine;
+        color: black;
+    }
+    footer{
+        background-color: gray;
+        padding-top: 50px;
+        height: 75px;
+        width: auto;
+        background-image: url(https://www.wysetc.org/wp-content/uploads/sites/19/2020/10/header-small.jpg);
+        text-align: center;
+    }
+
+ /*Fin de header y footer*/
+
+    /*GLOBAL*/
+
+    /*Hs*/
+        h1{
+            color: rgb(26, 25, 25);
+            background-color:  rgb(212, 206, 198);
+            font-size: 30px;
+            margin-left: 50px;
+            margin-right: 10PX;
+            padding: 20px 30px 20px 30px;
+            border-radius: 50px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        h2{
+            
+            font-size: 30px;
+            border-bottom: 1px black;
+            padding-left: 15px;
+            padding-right: 190px;
+            margin-left:  15px;
+            margin-right:1600px  ;
+            font-family: 'Mukta', sans-serif;
+            border-radius: 20px;
+            color: rgb(26, 25, 25);
+            background-color:  rgb(212, 206, 198);
+            
+        }
+
+        h3{
+            
+            border-bottom: 1px black;
+            padding-left: 15px;
+            padding-right: 190px;
+            margin-left:  15px;
+            margin-right: 1900px ;
+            font-family: 'Mukta', sans-serif;
+            border-radius: 20px;
+            color: rgb(26, 25, 25);
+            background-color:  rgb(212, 206, 198);
+        }
+
+
+
+    /* modify in general*/
+    body{
+        background-color: rgb(255, 255, 255);
+        font-family: 'Joan', serif;
+        
+    }
+
+
+
+
+
+
+        /*Alterar estilos de letra*/
+            p{
+                margin-left: 75px;
+            }
+
+            i{
+                color: rgb(163, 115, 115);
+            }
+
+            i a{
+                color: rgb(163, 115, 115);
+            }
+
+            b{
+                font-weight: 1500;
+            }
+
+            /*Para saber que cambios tuvo el documento*/
+            ins{
+                color:beige;
+                text-align: center;
+                text-decoration: underline dashed rgb(99, 139, 34);
+                font-weight: 50;
+            }
+
+            em{
+                color: white;
+                margin-bottom: 15px;
+            }
+
+            a{
+                text-decoration: none;
+                margin-right: 50px;
+                color: aliceblue;
+            }
+
+
+    /*Services/contact/index containers*/
+        div.Services-container, div.contact-container, div.index-container{
+            display: flex;
+            flex-wrap: wrap;
+            flex-basis: 45px;
+        }
+
+        div.Services, div.contact-inf,div.general-index{
+            background-color: aliceblue;
+            width: 500px;
+            padding-top:10px ;
+            margin-left: 40px;
+            margin-right: 12px;
+            margin-bottom: 20px;
+            padding-bottom:10px ;
+            border-radius: 25px;
+        }
+
+
+        div.Services ol li:hover, div.Services ul li:hover {
+        font-size: 30px;
+        }
